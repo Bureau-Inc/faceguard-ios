@@ -1,7 +1,7 @@
 # LivenessSDK.podspec
 Pod::Spec.new do |spec|
   spec.name         = 'Faceguard'
-  spec.version      = '1.0.0'
+  spec.version      = '1.0.1'
   spec.summary      = 'Faceguard detection SDK'
   spec.description  = 'SDK for Faceguard detection with device intelligence'
   spec.homepage     = 'https://bureau.id'

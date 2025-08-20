@@ -19,75 +19,8 @@ import _SwiftConcurrencyShims
 import bureau_id_fraud_sdk
 import os.log
 import os
-public struct FaceDetectionResponse : Swift.Codable {
-  public let merchantId: Swift.String?
-  public let message: Swift.String?
-  public let requestId: Swift.String?
-  public let result: Faceguard.DetectionResult?
-  public let statusCode: Swift.Int?
-  public let timestamp: Swift.Int64?
-  public let bureauConsentId: Swift.String?
-  public let consent: Swift.Bool?
-  public let custID: Swift.String?
-  public let sessionId: Swift.String?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct DetectionResult : Swift.Codable {
-  public let faces: Faceguard.FaceAnalysis?
-  public let liveness: Faceguard.LivenessAnalysis?
-  public let moderation: Faceguard.ModerationAnalysis?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct FaceAnalysis : Swift.Codable {
-  public let accessories: Faceguard.Accessories?
-  public let eyesOpen: Swift.Bool?
-  public let multipleFacesDetected: Swift.Bool?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct Accessories : Swift.Codable {
-  public let clothing: Swift.Double?
-  public let glasses: Swift.Double?
-  public let headgear: Swift.Double?
-  public let hijab: Swift.Double?
-  public let mask: Swift.Double?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct LivenessAnalysis : Swift.Codable {
-  public let live: Swift.Bool?
-  public let livenessScore: Swift.Double?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct ModerationAnalysis : Swift.Codable {
-  public let blackAndWhite: Swift.Bool?
-  public let gore: Swift.Bool?
-  public let nudity: Swift.Bool?
-  public let poorQuality: Swift.Bool?
-  public let skinOrChest: Swift.Double?
-  public let whiteBackground: Swift.Bool?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
 public struct FaceguardTheme {
   public init(primaryTextColor: UIKit.UIColor?, secondaryTextColor: UIKit.UIColor?, primaryBackgroundColor: UIKit.UIColor?, fontName: Swift.String?, logo: Swift.String? = nil)
-}
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class LivenessNavigationController : UIKit.UINavigationController {
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
-    @objc get
-  }
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var shouldAutorotate: Swift.Bool {
-    @objc get
-  }
-  @available(iOS 5.0, *)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(rootViewController: UIKit.UIViewController)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @objc deinit
 }
 extension UIKit.UIColor {
   convenience public init?(hex: Swift.String)
@@ -97,16 +30,6 @@ public struct FaceguardConfiguration {
 }
 public struct MultipartFile {
   public init(fieldName: Swift.String, fileName: Swift.String, data: Foundation.Data, mimeType: Swift.String = "application/octet-stream")
-}
-public enum Environment : Swift.String {
-  case development
-  case production
-  case staging
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
 }
 public struct FaceDedupeResponse {
   public var failure: Faceguard.FailureResponse?
@@ -161,11 +84,6 @@ public enum NetworkError : Swift.Error, Foundation.LocalizedError {
 extension Faceguard.NetworkError : Swift.Equatable {
   public static func == (lhs: Faceguard.NetworkError, rhs: Faceguard.NetworkError) -> Swift.Bool
 }
-@_hasMissingDesignatedInitializers public class FaceguardSDK {
-  public static func initialize(with configuration: Faceguard.FaceguardConfiguration, delegate: any Faceguard.FaceguardDelegate) -> Faceguard.FaceguardSDK?
-  public func start(from viewController: UIKit.UIViewController)
-  @objc deinit
-}
 public struct FailureResponse : Swift.Codable {
   public let error: Faceguard.ErrorDetail?
   public let merchantId: Swift.String?
@@ -218,69 +136,6 @@ extension Faceguard.FailureResponse {
   public var userFriendlyMessage: Swift.String {
     get
   }
-}
-public struct DIInsights {
-  public let networkInformation: Faceguard.DINetworkInformation?
-  public let gpsLocation: Faceguard.DILocationModel?
-  public let ip: Swift.String
-  public let ipType: Swift.String
-  public let ipLocation: Faceguard.DILocationModel?
-  public let ipSecurity: Faceguard.DIIPSecurity?
-  public let os: Swift.String
-  public let debuggable: Swift.Bool
-  public let emulator: Swift.Bool
-  public let fingerprint: Swift.String
-  public let firstSeenDays: Swift.Int
-  public let mockgps: Swift.Bool
-  public let model: Swift.String
-  public let package: Swift.String
-  public let jailbreak: Swift.Bool?
-  public let userId: Swift.String
-  public let remoteDesktop: Swift.Bool
-  public let sessionId: Swift.String
-  public let createdAt: Swift.Int64
-  public let confidenceScore: Swift.Double?
-  public let voiceCallDetected: Swift.Bool?
-  public let riskScore: Swift.Int
-  public let riskLevel: Swift.String
-  public let riskCauses: [Swift.String]
-  public let developerMode: Swift.Bool
-  public let appStoreInstall: Swift.Bool
-  public let fridaDetected: Swift.Bool
-  public let accessibilityEnabled: Swift.Bool
-  public let factoryResetRisk: Swift.String
-  public let factoryResetTime: Swift.Int64?
-  public let behaviouralRiskLevel: Swift.String
-  public let deviceRiskScore: Swift.Int
-  public let deviceRiskLevel: Swift.String
-  public let merchantId: Swift.String
-  public let requestId: Swift.String
-  public let timestamp: Swift.Int64?
-  public let statusCode: Swift.Int?
-}
-public struct DINetworkInformation : Swift.Codable {
-  public let isp: Swift.String?
-  public let ipType: Swift.String?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct DILocationModel : Swift.Codable {
-  public let city: Swift.String?
-  public let country: Swift.String?
-  public let latitude: Swift.Double?
-  public let longitude: Swift.Double?
-  public let region: Swift.String?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct DIIPSecurity : Swift.Codable {
-  public let isCrawler: Swift.Bool?
-  public let isProxy: Swift.Bool?
-  public let isTor: Swift.Bool?
-  public let threatLevel: Swift.String?
-  public let vpn: Swift.Bool?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
 }
 public struct FaceguardServicesConfiguration {
   public init(retryEnabled: Swift.Bool = true, statusScreenRequired: Swift.Bool = true, enableFaceMatch: Swift.Bool = true, enableFaceAnalyser: Swift.Bool = false, enableFaceDedupe: Swift.Bool = false, enableFaceEntityEnrollment: Swift.Bool = false, imageURL: Swift.String? = nil, consentType: Faceguard.ConsentType? = .explicit)
@@ -372,6 +227,69 @@ public struct Gender : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public struct DIInsights {
+  public let networkInformation: Faceguard.DINetworkInformation?
+  public let gpsLocation: Faceguard.DILocationModel?
+  public let ip: Swift.String
+  public let ipType: Swift.String
+  public let ipLocation: Faceguard.DILocationModel?
+  public let ipSecurity: Faceguard.DIIPSecurity?
+  public let os: Swift.String
+  public let debuggable: Swift.Bool
+  public let emulator: Swift.Bool
+  public let fingerprint: Swift.String
+  public let firstSeenDays: Swift.Int
+  public let mockgps: Swift.Bool
+  public let model: Swift.String
+  public let package: Swift.String
+  public let jailbreak: Swift.Bool?
+  public let userId: Swift.String
+  public let remoteDesktop: Swift.Bool
+  public let sessionId: Swift.String
+  public let createdAt: Swift.Int64
+  public let confidenceScore: Swift.Double?
+  public let voiceCallDetected: Swift.Bool?
+  public let riskScore: Swift.Int
+  public let riskLevel: Swift.String
+  public let riskCauses: [Swift.String]
+  public let developerMode: Swift.Bool
+  public let appStoreInstall: Swift.Bool
+  public let fridaDetected: Swift.Bool
+  public let accessibilityEnabled: Swift.Bool
+  public let factoryResetRisk: Swift.String
+  public let factoryResetTime: Swift.Int64?
+  public let behaviouralRiskLevel: Swift.String
+  public let deviceRiskScore: Swift.Int
+  public let deviceRiskLevel: Swift.String
+  public let merchantId: Swift.String
+  public let requestId: Swift.String
+  public let timestamp: Swift.Int64?
+  public let statusCode: Swift.Int?
+}
+public struct DINetworkInformation : Swift.Codable {
+  public let isp: Swift.String?
+  public let ipType: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct DILocationModel : Swift.Codable {
+  public let city: Swift.String?
+  public let country: Swift.String?
+  public let latitude: Swift.Double?
+  public let longitude: Swift.Double?
+  public let region: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct DIIPSecurity : Swift.Codable {
+  public let isCrawler: Swift.Bool?
+  public let isProxy: Swift.Bool?
+  public let isTor: Swift.Bool?
+  public let threatLevel: Swift.String?
+  public let vpn: Swift.Bool?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct FaceguardThresholdConfig {
   public var hijab: Swift.Double
   public var mask: Swift.Double
@@ -381,8 +299,33 @@ public struct FaceguardThresholdConfig {
   public var skinOrChest: Swift.Double
   public init(hijab: Swift.Double = 0.8, mask: Swift.Double = 0.8, headgear: Swift.Double = 0.8, clothing: Swift.Double = 0.8, glasses: Swift.Double = 0.8, skinOrChest: Swift.Double = 0.9)
 }
+@_hasMissingDesignatedInitializers public class FaceguardSDK {
+  public static func initialize(with configuration: Faceguard.FaceguardConfiguration, delegate: any Faceguard.FaceguardDelegate) -> Faceguard.FaceguardSDK?
+  public func start(from viewController: UIKit.UIViewController)
+  @objc deinit
+}
 public protocol FaceguardDelegate : AnyObject {
   func faceguardProcessDidCompleteWith(success: Swift.Bool, error: Faceguard.NetworkError?, image: UIKit.UIImage?, faceguardResponse: Faceguard.FaceguardResponse?)
+  func onUserActivityChanged(activity: Faceguard.UserActivity, sessionId: Swift.String)
+}
+extension Faceguard.FaceguardDelegate {
+  public func onUserActivityChanged(activity: Faceguard.UserActivity, sessionId: Swift.String)
+}
+public enum UserActivity {
+  case consentScreenOpen
+  case cameraOpen
+  case photoCaptured
+  case retakePhoto
+  case submitPhoto
+  case statusScreenOpen
+  case consentScreenBackButtonPress
+  case cameraScreenBackButtonPress
+  case previewScreenBackButtonPress
+  public static func == (a: Faceguard.UserActivity, b: Faceguard.UserActivity) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public struct FaceguardResponse {
   public var diInsights: Faceguard.DIInsights?
@@ -412,9 +355,83 @@ public struct FaceMatchModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-extension Faceguard.Environment : Swift.Equatable {}
-extension Faceguard.Environment : Swift.Hashable {}
-extension Faceguard.Environment : Swift.RawRepresentable {}
+public enum Environment : Swift.String {
+  case development
+  case production
+  case staging
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class LivenessNavigationController : UIKit.UINavigationController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var shouldAutorotate: Swift.Bool {
+    @objc get
+  }
+  @available(iOS 5.0, *)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(rootViewController: UIKit.UIViewController)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+public struct FaceDetectionResponse : Swift.Codable {
+  public let merchantId: Swift.String?
+  public let message: Swift.String?
+  public let requestId: Swift.String?
+  public let result: Faceguard.DetectionResult?
+  public let statusCode: Swift.Int?
+  public let timestamp: Swift.Int64?
+  public let bureauConsentId: Swift.String?
+  public let consent: Swift.Bool?
+  public let custID: Swift.String?
+  public let sessionId: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct DetectionResult : Swift.Codable {
+  public let faces: Faceguard.FaceAnalysis?
+  public let liveness: Faceguard.LivenessAnalysis?
+  public let moderation: Faceguard.ModerationAnalysis?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct FaceAnalysis : Swift.Codable {
+  public let accessories: Faceguard.Accessories?
+  public let eyesOpen: Swift.Bool?
+  public let multipleFacesDetected: Swift.Bool?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Accessories : Swift.Codable {
+  public let clothing: Swift.Double?
+  public let glasses: Swift.Double?
+  public let headgear: Swift.Double?
+  public let hijab: Swift.Double?
+  public let mask: Swift.Double?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct LivenessAnalysis : Swift.Codable {
+  public let live: Swift.Bool?
+  public let livenessScore: Swift.Double?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ModerationAnalysis : Swift.Codable {
+  public let blackAndWhite: Swift.Bool?
+  public let gore: Swift.Bool?
+  public let nudity: Swift.Bool?
+  public let poorQuality: Swift.Bool?
+  public let skinOrChest: Swift.Double?
+  public let whiteBackground: Swift.Bool?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 extension Faceguard.ErrorType : Swift.Equatable {}
 extension Faceguard.ErrorType : Swift.Hashable {}
 extension Faceguard.ErrorType : Swift.RawRepresentable {}
@@ -422,3 +439,8 @@ extension Faceguard.ConsentType : Swift.Equatable {}
 extension Faceguard.ConsentType : Swift.Hashable {}
 extension Faceguard.NetworkStatus : Swift.Equatable {}
 extension Faceguard.NetworkStatus : Swift.Hashable {}
+extension Faceguard.UserActivity : Swift.Equatable {}
+extension Faceguard.UserActivity : Swift.Hashable {}
+extension Faceguard.Environment : Swift.Equatable {}
+extension Faceguard.Environment : Swift.Hashable {}
+extension Faceguard.Environment : Swift.RawRepresentable {}

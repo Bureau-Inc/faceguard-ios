@@ -19,81 +19,6 @@ import _SwiftConcurrencyShims
 import bureau_id_fraud_sdk
 import os.log
 import os
-public struct DIInsights {
-  public let networkInformation: Faceguard.DINetworkInformation?
-  public let gpsLocation: Faceguard.DILocationModel?
-  public let ip: Swift.String
-  public let ipType: Swift.String
-  public let ipLocation: Faceguard.DILocationModel?
-  public let ipSecurity: Faceguard.DIIPSecurity?
-  public let os: Swift.String
-  public let debuggable: Swift.Bool
-  public let emulator: Swift.Bool
-  public let fingerprint: Swift.String
-  public let firstSeenDays: Swift.Int
-  public let mockgps: Swift.Bool
-  public let model: Swift.String
-  public let package: Swift.String
-  public let jailbreak: Swift.Bool?
-  public let userId: Swift.String
-  public let remoteDesktop: Swift.Bool
-  public let sessionId: Swift.String
-  public let createdAt: Swift.Int64
-  public let confidenceScore: Swift.Double?
-  public let voiceCallDetected: Swift.Bool?
-  public let riskScore: Swift.Int
-  public let riskLevel: Swift.String
-  public let riskCauses: [Swift.String]
-  public let developerMode: Swift.Bool
-  public let appStoreInstall: Swift.Bool
-  public let fridaDetected: Swift.Bool
-  public let accessibilityEnabled: Swift.Bool
-  public let factoryResetRisk: Swift.String
-  public let factoryResetTime: Swift.Int64?
-  public let behaviouralRiskLevel: Swift.String
-  public let deviceRiskScore: Swift.Int
-  public let deviceRiskLevel: Swift.String
-  public let merchantId: Swift.String
-  public let requestId: Swift.String
-  public let timestamp: Swift.Int64?
-  public let statusCode: Swift.Int?
-}
-public struct DINetworkInformation : Swift.Codable {
-  public let isp: Swift.String?
-  public let ipType: Swift.String?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct DILocationModel : Swift.Codable {
-  public let city: Swift.String?
-  public let country: Swift.String?
-  public let latitude: Swift.Double?
-  public let longitude: Swift.Double?
-  public let region: Swift.String?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct DIIPSecurity : Swift.Codable {
-  public let isCrawler: Swift.Bool?
-  public let isProxy: Swift.Bool?
-  public let isTor: Swift.Bool?
-  public let threatLevel: Swift.String?
-  public let vpn: Swift.Bool?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct FaceguardServicesConfiguration {
-  public init(retryEnabled: Swift.Bool = true, statusScreenRequired: Swift.Bool = true, enableFaceMatch: Swift.Bool = true, enableFaceAnalyser: Swift.Bool = false, enableFaceDedupe: Swift.Bool = false, enableFaceEntityEnrollment: Swift.Bool = false, imageURL: Swift.String? = nil, consentType: Faceguard.ConsentType? = .explicit)
-}
-public enum ConsentType {
-  case explicit
-  case implicit
-  public static func == (a: Faceguard.ConsentType, b: Faceguard.ConsentType) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
 public struct FaceEntityEnrollmentResponse {
   public var failure: Faceguard.FailureResponse?
   public var faceEnrollmentModel: Faceguard.FaceEnrollmentModel?
@@ -143,6 +68,11 @@ public enum NetworkStatus {
     get
   }
 }
+@_hasMissingDesignatedInitializers public class FaceguardSDK {
+  public static func initialize(with configuration: Faceguard.FaceguardConfiguration, delegate: any Faceguard.FaceguardDelegate) -> Faceguard.FaceguardSDK?
+  public func start(from viewController: UIKit.UIViewController)
+  @objc deinit
+}
 public struct FaceAnalyzerResponse {
   public var failure: Faceguard.FailureResponse?
   public var faceAnalyzerModel: Faceguard.FaceAnalyzerModel?
@@ -183,6 +113,26 @@ public struct FaceguardThresholdConfig {
 }
 public protocol FaceguardDelegate : AnyObject {
   func faceguardProcessDidCompleteWith(success: Swift.Bool, error: Faceguard.NetworkError?, image: UIKit.UIImage?, faceguardResponse: Faceguard.FaceguardResponse?)
+  func onUserActivityChanged(activity: Faceguard.UserActivity, sessionId: Swift.String)
+}
+extension Faceguard.FaceguardDelegate {
+  public func onUserActivityChanged(activity: Faceguard.UserActivity, sessionId: Swift.String)
+}
+public enum UserActivity {
+  case consentScreenOpen
+  case cameraOpen
+  case photoCaptured
+  case retakePhoto
+  case submitPhoto
+  case statusScreenOpen
+  case consentScreenBackButtonPress
+  case cameraScreenBackButtonPress
+  case previewScreenBackButtonPress
+  public static func == (a: Faceguard.UserActivity, b: Faceguard.UserActivity) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public struct FaceguardResponse {
   public var diInsights: Faceguard.DIInsights?
@@ -211,6 +161,16 @@ public struct FaceMatchModel : Swift.Codable {
   public let sessionId: Swift.String?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+public enum Environment : Swift.String {
+  case development
+  case production
+  case staging
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
 }
 public struct FaceDetectionResponse : Swift.Codable {
   public let merchantId: Swift.String?
@@ -291,16 +251,6 @@ public struct FaceguardConfiguration {
 public struct MultipartFile {
   public init(fieldName: Swift.String, fileName: Swift.String, data: Foundation.Data, mimeType: Swift.String = "application/octet-stream")
 }
-public enum Environment : Swift.String {
-  case development
-  case production
-  case staging
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
 public struct FaceDedupeResponse {
   public var failure: Faceguard.FailureResponse?
   public var faceDedupeModel: Faceguard.FaceDedupeModel?
@@ -353,11 +303,6 @@ public enum NetworkError : Swift.Error, Foundation.LocalizedError {
 }
 extension Faceguard.NetworkError : Swift.Equatable {
   public static func == (lhs: Faceguard.NetworkError, rhs: Faceguard.NetworkError) -> Swift.Bool
-}
-@_hasMissingDesignatedInitializers public class FaceguardSDK {
-  public static func initialize(with configuration: Faceguard.FaceguardConfiguration, delegate: any Faceguard.FaceguardDelegate) -> Faceguard.FaceguardSDK?
-  public func start(from viewController: UIKit.UIViewController)
-  @objc deinit
 }
 public struct FailureResponse : Swift.Codable {
   public let error: Faceguard.ErrorDetail?
@@ -412,13 +357,90 @@ extension Faceguard.FailureResponse {
     get
   }
 }
-extension Faceguard.ConsentType : Swift.Equatable {}
-extension Faceguard.ConsentType : Swift.Hashable {}
+public struct DIInsights {
+  public let networkInformation: Faceguard.DINetworkInformation?
+  public let gpsLocation: Faceguard.DILocationModel?
+  public let ip: Swift.String
+  public let ipType: Swift.String
+  public let ipLocation: Faceguard.DILocationModel?
+  public let ipSecurity: Faceguard.DIIPSecurity?
+  public let os: Swift.String
+  public let debuggable: Swift.Bool
+  public let emulator: Swift.Bool
+  public let fingerprint: Swift.String
+  public let firstSeenDays: Swift.Int
+  public let mockgps: Swift.Bool
+  public let model: Swift.String
+  public let package: Swift.String
+  public let jailbreak: Swift.Bool?
+  public let userId: Swift.String
+  public let remoteDesktop: Swift.Bool
+  public let sessionId: Swift.String
+  public let createdAt: Swift.Int64
+  public let confidenceScore: Swift.Double?
+  public let voiceCallDetected: Swift.Bool?
+  public let riskScore: Swift.Int
+  public let riskLevel: Swift.String
+  public let riskCauses: [Swift.String]
+  public let developerMode: Swift.Bool
+  public let appStoreInstall: Swift.Bool
+  public let fridaDetected: Swift.Bool
+  public let accessibilityEnabled: Swift.Bool
+  public let factoryResetRisk: Swift.String
+  public let factoryResetTime: Swift.Int64?
+  public let behaviouralRiskLevel: Swift.String
+  public let deviceRiskScore: Swift.Int
+  public let deviceRiskLevel: Swift.String
+  public let merchantId: Swift.String
+  public let requestId: Swift.String
+  public let timestamp: Swift.Int64?
+  public let statusCode: Swift.Int?
+}
+public struct DINetworkInformation : Swift.Codable {
+  public let isp: Swift.String?
+  public let ipType: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct DILocationModel : Swift.Codable {
+  public let city: Swift.String?
+  public let country: Swift.String?
+  public let latitude: Swift.Double?
+  public let longitude: Swift.Double?
+  public let region: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct DIIPSecurity : Swift.Codable {
+  public let isCrawler: Swift.Bool?
+  public let isProxy: Swift.Bool?
+  public let isTor: Swift.Bool?
+  public let threatLevel: Swift.String?
+  public let vpn: Swift.Bool?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct FaceguardServicesConfiguration {
+  public init(retryEnabled: Swift.Bool = true, statusScreenRequired: Swift.Bool = true, enableFaceMatch: Swift.Bool = true, enableFaceAnalyser: Swift.Bool = false, enableFaceDedupe: Swift.Bool = false, enableFaceEntityEnrollment: Swift.Bool = false, imageURL: Swift.String? = nil, consentType: Faceguard.ConsentType? = .explicit)
+}
+public enum ConsentType {
+  case explicit
+  case implicit
+  public static func == (a: Faceguard.ConsentType, b: Faceguard.ConsentType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 extension Faceguard.NetworkStatus : Swift.Equatable {}
 extension Faceguard.NetworkStatus : Swift.Hashable {}
+extension Faceguard.UserActivity : Swift.Equatable {}
+extension Faceguard.UserActivity : Swift.Hashable {}
 extension Faceguard.Environment : Swift.Equatable {}
 extension Faceguard.Environment : Swift.Hashable {}
 extension Faceguard.Environment : Swift.RawRepresentable {}
 extension Faceguard.ErrorType : Swift.Equatable {}
 extension Faceguard.ErrorType : Swift.Hashable {}
 extension Faceguard.ErrorType : Swift.RawRepresentable {}
+extension Faceguard.ConsentType : Swift.Equatable {}
+extension Faceguard.ConsentType : Swift.Hashable {}

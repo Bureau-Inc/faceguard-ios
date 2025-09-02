@@ -74,11 +74,11 @@
 		</data>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		bHN9Ld9MVtKXU57utdGHF8K8J50=
+		6Ie9hGdkeQTGD0c2EiR6xd9B3fk=
 		</data>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		PmIiu21IlDOZFp1ChmF9pOzfAs0=
+		pstHb3MorfwoCAY8I7J88bJ/+So=
 		</data>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -86,15 +86,15 @@
 		</data>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		PmIiu21IlDOZFp1ChmF9pOzfAs0=
+		pstHb3MorfwoCAY8I7J88bJ/+So=
 		</data>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		wLmAiDK76fBFBr95sDzJD0/sc8w=
+		GDW5rjSrFq18D7NUR+A9h6CA5AY=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		/BXtxUuE3vezhUYVmIjRz7XIqOs=
+		vC9TNo30wHwcEP69SuGMuZuwhHg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -215,14 +215,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			e9ahCUQZY+c3dKLebeujfS3vYWNwF8lWvBWMQHWEw6k=
+			bllo5IrjC1Uaph8g806mleNSfbiSi0WsM9r9yK+t7Y4=
 			</data>
 		</dict>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4ErvzfmAgon3OpEuRnJlj0F7mKtsEaKuWmnqTtxUB+Y=
+			cWvkStSQv8TNpMjEc451TK79jSSU1CMNcTdIrZZQGjw=
 			</data>
 		</dict>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -236,21 +236,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4ErvzfmAgon3OpEuRnJlj0F7mKtsEaKuWmnqTtxUB+Y=
+			cWvkStSQv8TNpMjEc451TK79jSSU1CMNcTdIrZZQGjw=
 			</data>
 		</dict>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sU2qzAPkXjv6/+dK0+jPXwLhVZIYX3gtigHVdXVlFxE=
+			CToECtciBne6ciPKyjvlG08jtd6lnKMcBuB7h/vyc+w=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6cIPs735a3lGVoJqpyjrfW3sDuFcMDXaVLAKariGqhQ=
+			QyfNK8wtkbt1H2yA+dUZi1PQROnJ9cqRsD1wCRGhaGg=
 			</data>
 		</dict>
 	</dict>

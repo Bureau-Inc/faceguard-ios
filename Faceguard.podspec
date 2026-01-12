@@ -1,7 +1,7 @@
 # LivenessSDK.podspec
 Pod::Spec.new do |spec|
   spec.name         = 'Faceguard'
-  spec.version      = '1.0.6'
+  spec.version      = '1.0.7'
   spec.summary      = 'Faceguard detection SDK'
   spec.description  = 'SDK for Faceguard detection with device intelligence'
   spec.homepage     = 'https://bureau.id'
@@ -18,6 +18,6 @@ Pod::Spec.new do |spec|
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
   }
 
-  spec.dependency 'bureau-id-fraud-sdk'
+  spec.dependency 'deviceintel-ios'
 
 end

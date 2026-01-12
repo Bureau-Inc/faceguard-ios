@@ -6,15 +6,15 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Uyh7Ivpm3YMB6SdI7riplRbNEO4=
+		DTW5B4yT35Wxonf3FD3EaXoM4Is=
 		</data>
 		<key>Bureau.storyboardc/Bxr-BX-CJN-view-8mU-wl-D8Y.nib/objects-14.0+.nib</key>
 		<data>
-		gVSBLBne12vCC3hCt5AqTvS0b/M=
+		AgD3w/8CybqHOkjrdHLj7c/FovM=
 		</data>
 		<key>Bureau.storyboardc/Bxr-BX-CJN-view-8mU-wl-D8Y.nib/runtime.nib</key>
 		<data>
-		gVSBLBne12vCC3hCt5AqTvS0b/M=
+		AgD3w/8CybqHOkjrdHLj7c/FovM=
 		</data>
 		<key>Bureau.storyboardc/CameraViewController.nib/objects-14.0+.nib</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5JRvpeJhzTxUC3gmA8Cp1jv+wHo=
+		L9VswiHK1KcezTUTDK8zhqPHi8w=
 		</data>
 		<key>Lexend-Regular.ttf</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Q0Ic782f8OboGZx6i2vxmjRUnic=
+		//mSSsE1sWMtGo0UMpoFC+u4f5Q=
 		</data>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		IOBqxFdlJyISP1DwGNg4bie6/fA=
+		MfAZsVUuJFUqDMns+q1ewmQ7lYI=
 		</data>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -86,11 +86,11 @@
 		</data>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		IOBqxFdlJyISP1DwGNg4bie6/fA=
+		MfAZsVUuJFUqDMns+q1ewmQ7lYI=
 		</data>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ceLMnU3iW0NIW6wBXP03aDRL1gA=
+		YyWHYdLYZ9e1t6744F/tNhjf3N4=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -103,21 +103,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vGEZBEA6K75GurkLrkPUKyWKRCjWTpB+9lPCJ/ZjRdw=
+			UxQ3HjxfwZ5Uc9uDFVFLu7aFA8Nudtm4ZrjI0caxtO4=
 			</data>
 		</dict>
 		<key>Bureau.storyboardc/Bxr-BX-CJN-view-8mU-wl-D8Y.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cZzv4oKfpkpqgc3n7ahFqM/8ZtbOnwCU2gz1T2Qczxw=
+			TlkdxqPh126rKy1H+v6OzdxbnCy4Jv60hAbcPq+ahxY=
 			</data>
 		</dict>
 		<key>Bureau.storyboardc/Bxr-BX-CJN-view-8mU-wl-D8Y.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cZzv4oKfpkpqgc3n7ahFqM/8ZtbOnwCU2gz1T2Qczxw=
+			TlkdxqPh126rKy1H+v6OzdxbnCy4Jv60hAbcPq+ahxY=
 			</data>
 		</dict>
 		<key>Bureau.storyboardc/CameraViewController.nib/objects-14.0+.nib</key>
@@ -215,14 +215,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2wNMEK6Q/Ae0zz620W06Xsyt3vGgNpoQvDSNz+LOf6U=
+			IOZL/oYSHt33vdijfGyq6nE+reE2EZjCOA0InrlM5ck=
 			</data>
 		</dict>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rlAdBpUv5kqdwb9jkEieXrww1cROm2bP7xgA0MhXUlo=
+			mZ9JE6EbufKrdHKGV0hqJiI46JTHVUGBNWI3THslvJk=
 			</data>
 		</dict>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -236,14 +236,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rlAdBpUv5kqdwb9jkEieXrww1cROm2bP7xgA0MhXUlo=
+			mZ9JE6EbufKrdHKGV0hqJiI46JTHVUGBNWI3THslvJk=
 			</data>
 		</dict>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jeQkyg6ZRapT+BslEF4YkWPXeMZBQfGyoxbQDatZ1Do=
+			AHUI88agH8E4MLInOYOm/XZXNBr97thrHm5QjZOp+rg=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>

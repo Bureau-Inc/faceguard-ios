@@ -16172,6 +16172,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -17259,6 +17266,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_ExpressibleByColorLiteral",
             "printedName": "_ExpressibleByColorLiteral",
             "usr": "s:s26_ExpressibleByColorLiteralP",
@@ -17360,6 +17374,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -17458,6 +17479,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -17555,6 +17583,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       }
@@ -17563,1673 +17598,1694 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/CustomView\/LivenessNavigationController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/CustomView\/LivenessNavigationController.swift",
       "kind": "BooleanLiteral",
       "offset": 366,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/DI\/DIInsights.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/DI\/DIInsights.swift",
       "kind": "StringLiteral",
       "offset": 1583,
       "length": 13,
       "value": "\"GPSLocation\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/DI\/DIInsights.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/DI\/DIInsights.swift",
       "kind": "StringLiteral",
       "offset": 1615,
       "length": 4,
       "value": "\"IP\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/DI\/DIInsights.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/DI\/DIInsights.swift",
       "kind": "StringLiteral",
       "offset": 1642,
       "length": 8,
       "value": "\"IPType\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/DI\/DIInsights.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/DI\/DIInsights.swift",
       "kind": "StringLiteral",
       "offset": 1677,
       "length": 12,
       "value": "\"IPLocation\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/DI\/DIInsights.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/DI\/DIInsights.swift",
       "kind": "StringLiteral",
       "offset": 1716,
       "length": 12,
       "value": "\"IPSecurity\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/DI\/DIInsights.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/DI\/DIInsights.swift",
       "kind": "StringLiteral",
       "offset": 1747,
       "length": 4,
       "value": "\"OS\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/DI\/DIInsights.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/DI\/DIInsights.swift",
       "kind": "StringLiteral",
       "offset": 3293,
       "length": 5,
       "value": "\"VPN\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/DI\/DIManager.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/DI\/DIManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1584,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/DI\/DIManager.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/DI\/DIManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1635,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/DI\/DIManager.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/DI\/DIManager.swift",
       "kind": "StringLiteral",
       "offset": 1952,
       "length": 29,
       "value": "\"com.faceguard.di.submission\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 245,
       "length": 20,
       "value": "\"sessionInitialized\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 304,
       "length": 28,
       "value": "\"instructionPageInitialized\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 362,
       "length": 19,
       "value": "\"cameraInitialized\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 418,
       "length": 26,
       "value": "\"previewScreenInitialized\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 481,
       "length": 26,
       "value": "\"previewRetakeInitialized\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 543,
       "length": 25,
       "value": "\"loaderScreenInitialized\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 603,
       "length": 24,
       "value": "\"errorScreenInitialized\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 660,
       "length": 22,
       "value": "\"livenessAPIInitiated\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 715,
       "length": 22,
       "value": "\"livenessAPICompleted\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 783,
       "length": 16,
       "value": "\"DISDKInitiated\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 825,
       "length": 15,
       "value": "\"DISDKSumitted\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 898,
       "length": 26,
       "value": "\"faceAnalyzerAPIInitiated\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 961,
       "length": 26,
       "value": "\"faceAnalyzerAPICompleted\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1043,
       "length": 23,
       "value": "\"faceMatchAPIInitiated\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1100,
       "length": 23,
       "value": "\"faceMatchAPICompleted\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1177,
       "length": 24,
       "value": "\"faceDedupeAPIInitiated\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1236,
       "length": 24,
       "value": "\"faceDedupeAPICompleted\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1310,
       "length": 34,
       "value": "\"faceEntityEnrollmentAPIInitiated\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1389,
       "length": 34,
       "value": "\"faceEntityEnrollmentAPICompleted\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1525,
       "length": 11,
       "value": "\"timestamp\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1558,
       "length": 11,
       "value": "\"eventName\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1630,
       "length": 11,
       "value": "\"sessionId\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1660,
       "length": 8,
       "value": "\"custId\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1693,
       "length": 14,
       "value": "\"retryEnabled\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1728,
       "length": 10,
       "value": "\"clientId\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1771,
       "length": 22,
       "value": "\"statusScreenRequired\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1822,
       "length": 15,
       "value": "\"primaryColour\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1872,
       "length": 24,
       "value": "\"primaryBackgroundColor\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1927,
       "length": 17,
       "value": "\"secondaryColour\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1969,
       "length": 14,
       "value": "\"fontStyleRes\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 2013,
       "length": 19,
       "value": "\"clothingThreshold\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 2061,
       "length": 18,
       "value": "\"glassesThreshold\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 2109,
       "length": 19,
       "value": "\"headgearThreshold\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 2155,
       "length": 16,
       "value": "\"hijabThreshold\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 2204,
       "length": 22,
       "value": "\"skinOrChestThreshold\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 2252,
       "length": 15,
       "value": "\"maskThreshold\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 2303,
       "length": 25,
       "value": "\"cameraPermissionGranted\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 2361,
       "length": 22,
       "value": "\"cameraPermissionType\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 2418,
       "length": 24,
       "value": "\"retakeErrorDescription\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 2468,
       "length": 15,
       "value": "\"fingerprintId\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 2507,
       "length": 13,
       "value": "\"eventStatus\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 2549,
       "length": 18,
       "value": "\"brandingRendered\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 2584,
       "length": 6,
       "value": "\"logo\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 2624,
       "length": 23,
       "value": "\"isOvalBoundaryVisible\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 2678,
       "length": 20,
       "value": "\"instructionVisible\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 2724,
       "length": 15,
       "value": "\"retakeVisible\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 2765,
       "length": 15,
       "value": "\"submitVisible\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 2804,
       "length": 13,
       "value": "\"retakeCount\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 2855,
       "length": 27,
       "value": "\"livenessStatusDescription\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 2904,
       "length": 11,
       "value": "\"faceMatch\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 2940,
       "length": 14,
       "value": "\"faceAnalyzer\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 2977,
       "length": 12,
       "value": "\"faceDedupe\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 3020,
       "length": 20,
       "value": "\"deviceIntelligence\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 3065,
       "length": 14,
       "value": "\"faceLiveness\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 3112,
       "length": 22,
       "value": "\"autoEnrollFaceDedupe\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 3224,
       "length": 9,
       "value": "\"init_id\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 3262,
       "length": 19,
       "value": "\"suspicious_signal\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 3304,
       "length": 13,
       "value": "\"device_data\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 3356,
       "length": 30,
       "value": "\"enable_behavioral_biometrics\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 3410,
       "length": 13,
       "value": "\"environment\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 3442,
       "length": 8,
       "value": "\"status\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 3472,
       "length": 12,
       "value": "\"error_code\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 3508,
       "length": 14,
       "value": "\"submit_count\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 3540,
       "length": 7,
       "value": "\"value\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 3568,
       "length": 5,
       "value": "\"key\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 3593,
       "length": 9,
       "value": "\"records\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 3620,
       "length": 8,
       "value": "\"is_dev\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 3643,
       "length": 4,
       "value": "\"os\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 3670,
       "length": 12,
       "value": "\"deviceType\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 3703,
       "length": 10,
       "value": "\"platform\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 3736,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 3775,
       "length": 16,
       "value": "\"app_identifier\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 3814,
       "length": 12,
       "value": "\"iosVersion\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 3848,
       "length": 12,
       "value": "\"model_name\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 3879,
       "length": 8,
       "value": "\"ipCity\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 3908,
       "length": 10,
       "value": "\"ipRegion\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 3940,
       "length": 11,
       "value": "\"ipCountry\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 3967,
       "length": 5,
       "value": "\"isp\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 3991,
       "length": 8,
       "value": "\"ipType\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogger.swift",
       "kind": "BooleanLiteral",
       "offset": 4255,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLoggerConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLoggerConstant.swift",
       "kind": "StringLiteral",
       "offset": 217,
       "length": 68,
       "value": "\"https:\/\/plt.dev.bureau.id\/topics\/aws.msk.bureau.faceguardSDKEvents\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLoggerConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLoggerConstant.swift",
       "kind": "StringLiteral",
       "offset": 338,
       "length": 68,
       "value": "\"https:\/\/plt.stg.bureau.id\/topics\/aws.msk.bureau.faceguardSDKEvents\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLoggerConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLoggerConstant.swift",
       "kind": "StringLiteral",
       "offset": 460,
       "length": 64,
       "value": "\"https:\/\/plt.bureau.id\/topics\/aws.msk.bureau.faceguardSDKEvents\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLoggerConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLoggerConstant.swift",
       "kind": "StringLiteral",
       "offset": 579,
       "length": 102,
       "value": "\"M2U4NDQ5ZmItZDhhMC00ZTM4LWE2NDMtYWI0YmI2ZDhkNzc1OjEwYjYwZTQyLTA3MDAtNDNhMy04NzE5LWJhNGFiNmRlZGIxZA==\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLoggerConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLoggerConstant.swift",
       "kind": "StringLiteral",
       "offset": 708,
       "length": 102,
       "value": "\"MzNiNTQ0N2ItZGU2My00MTZjLTgzYTMtYjdhNTk5ZTVmYjU1OjFhZGQwMjAxLWZiODEtNDJjOS1hMzNiLTcxN2Y1ZWVkNWVmNg==\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLoggerConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLoggerConstant.swift",
       "kind": "StringLiteral",
       "offset": 837,
       "length": 102,
       "value": "\"ODA5MjVhMjktN2U0Yi00N2I4LWI0ZDMtN2YyZmMyZDY5ZTU3OmEzZjEyZWFkLWI0OWEtNDdkNi05Mzg4LTRiYzkzZWM3N2RhNQ==\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogUploadManager.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogUploadManager.swift",
       "kind": "StringLiteral",
       "offset": 286,
       "length": 39,
       "value": "\"id.bureau.Liveness.eventlogger.upload\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogUploadManager.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/EventLog\/LivenessEventLogUploadManager.swift",
       "kind": "BooleanLiteral",
       "offset": 2363,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Extentions\/Color+Extension.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Extentions\/Color+Extension.swift",
       "kind": "StringLiteral",
       "offset": 1651,
       "length": 9,
       "value": "\"#313566\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Extentions\/Color+Extension.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Extentions\/Color+Extension.swift",
       "kind": "BooleanLiteral",
       "offset": 1714,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FaceAnalyzerResponse.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FaceAnalyzerResponse.swift",
       "kind": "StringLiteral",
       "offset": 1339,
       "length": 6,
       "value": "\"MALE\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FaceAnalyzerResponse.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FaceAnalyzerResponse.swift",
       "kind": "StringLiteral",
       "offset": 1364,
       "length": 8,
       "value": "\"FEMALE\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FaceAnalyzerResponse.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FaceAnalyzerResponse.swift",
       "kind": "StringLiteral",
       "offset": 1392,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardServicesConfiguration.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardServicesConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 475,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardServicesConfiguration.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardServicesConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 510,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardServicesConfiguration.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardServicesConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 540,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardServicesConfiguration.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardServicesConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 573,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardServicesConfiguration.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardServicesConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 605,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardServicesConfiguration.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardServicesConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 647,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardTheme.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardTheme.swift",
       "kind": "BooleanLiteral",
       "offset": 355,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardThresholdConfig.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardThresholdConfig.swift",
       "kind": "FloatLiteral",
       "offset": 391,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardThresholdConfig.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardThresholdConfig.swift",
       "kind": "FloatLiteral",
       "offset": 411,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardThresholdConfig.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardThresholdConfig.swift",
       "kind": "FloatLiteral",
       "offset": 435,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardThresholdConfig.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardThresholdConfig.swift",
       "kind": "FloatLiteral",
       "offset": 459,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardThresholdConfig.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardThresholdConfig.swift",
       "kind": "FloatLiteral",
       "offset": 482,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardThresholdConfig.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardThresholdConfig.swift",
       "kind": "FloatLiteral",
       "offset": 509,
       "length": 3,
       "value": "0.9"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FailureResponse.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FailureResponse.swift",
       "kind": "StringLiteral",
       "offset": 1556,
       "length": 23,
       "value": "\"INTERNAL_SERVER_ERROR\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FailureResponse.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FailureResponse.swift",
       "kind": "StringLiteral",
       "offset": 1602,
       "length": 13,
       "value": "\"BAD_REQUEST\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FailureResponse.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FailureResponse.swift",
       "kind": "StringLiteral",
       "offset": 1640,
       "length": 14,
       "value": "\"UNAUTHORIZED\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FailureResponse.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FailureResponse.swift",
       "kind": "StringLiteral",
       "offset": 1676,
       "length": 11,
       "value": "\"FORBIDDEN\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FailureResponse.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FailureResponse.swift",
       "kind": "StringLiteral",
       "offset": 1708,
       "length": 11,
       "value": "\"NOT_FOUND\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FailureResponse.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FailureResponse.swift",
       "kind": "StringLiteral",
       "offset": 1748,
       "length": 20,
       "value": "\"METHOD_NOT_ALLOWED\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FailureResponse.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FailureResponse.swift",
       "kind": "StringLiteral",
       "offset": 1795,
       "length": 17,
       "value": "\"REQUEST_TIMEOUT\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FailureResponse.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FailureResponse.swift",
       "kind": "StringLiteral",
       "offset": 1833,
       "length": 10,
       "value": "\"CONFLICT\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FailureResponse.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FailureResponse.swift",
       "kind": "StringLiteral",
       "offset": 1875,
       "length": 22,
       "value": "\"UNPROCESSABLE_ENTITY\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FailureResponse.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FailureResponse.swift",
       "kind": "StringLiteral",
       "offset": 1925,
       "length": 19,
       "value": "\"TOO_MANY_REQUESTS\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FailureResponse.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FailureResponse.swift",
       "kind": "StringLiteral",
       "offset": 1967,
       "length": 13,
       "value": "\"BAD_GATEWAY\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FailureResponse.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FailureResponse.swift",
       "kind": "StringLiteral",
       "offset": 2011,
       "length": 21,
       "value": "\"SERVICE_UNAVAILABLE\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FailureResponse.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FailureResponse.swift",
       "kind": "StringLiteral",
       "offset": 2059,
       "length": 17,
       "value": "\"GATEWAY_TIMEOUT\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Model\/FailureResponse.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FailureResponse.swift",
       "kind": "StringLiteral",
       "offset": 2096,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
       "kind": "IntegerLiteral",
       "offset": 165,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
       "kind": "IntegerLiteral",
       "offset": 171,
       "length": 3,
       "value": "299"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
       "kind": "IntegerLiteral",
       "offset": 203,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
       "kind": "IntegerLiteral",
       "offset": 236,
       "length": 3,
       "value": "201"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
       "kind": "IntegerLiteral",
       "offset": 270,
       "length": 3,
       "value": "202"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
       "kind": "IntegerLiteral",
       "offset": 305,
       "length": 3,
       "value": "204"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
       "kind": "IntegerLiteral",
       "offset": 341,
       "length": 3,
       "value": "400"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
       "kind": "IntegerLiteral",
       "offset": 379,
       "length": 3,
       "value": "401"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
       "kind": "IntegerLiteral",
       "offset": 414,
       "length": 3,
       "value": "403"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
       "kind": "IntegerLiteral",
       "offset": 448,
       "length": 3,
       "value": "404"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
       "kind": "IntegerLiteral",
       "offset": 493,
       "length": 3,
       "value": "500"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
       "kind": "FloatLiteral",
       "offset": 581,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
       "kind": "FloatLiteral",
       "offset": 627,
       "length": 4,
       "value": "60.0"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
       "kind": "IntegerLiteral",
       "offset": 634,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkConstant.swift",
       "kind": "FloatLiteral",
       "offset": 678,
       "length": 4,
       "value": "15.0"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkManager.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 432,
       "length": 16,
       "value": "\"NetworkManager\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkManager.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 460,
       "length": 12,
       "value": "\"Networking\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/ReachabilityManager.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/ReachabilityManager.swift",
       "kind": "StringLiteral",
       "offset": 695,
       "length": 16,
       "value": "\"NetworkMonitor\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/ReachabilityManager.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/ReachabilityManager.swift",
       "kind": "StringLiteral",
       "offset": 870,
       "length": 13,
       "value": "\"StatusQueue\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/ReachabilityManager.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/ReachabilityManager.swift",
       "kind": "StringLiteral",
       "offset": 3785,
       "length": 22,
       "value": "\"NetworkStatusChanged\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/RequestCreator.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/RequestCreator.swift",
       "kind": "StringLiteral",
       "offset": 156,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/RequestCreator.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/RequestCreator.swift",
       "kind": "StringLiteral",
       "offset": 182,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/RequestCreator.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/RequestCreator.swift",
       "kind": "StringLiteral",
       "offset": 208,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/RequestCreator.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/RequestCreator.swift",
       "kind": "StringLiteral",
       "offset": 236,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/RequestCreator.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/RequestCreator.swift",
       "kind": "StringLiteral",
       "offset": 266,
       "length": 7,
       "value": "\"PATCH\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/RequestCreator.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/RequestCreator.swift",
       "kind": "StringLiteral",
       "offset": 294,
       "length": 6,
       "value": "\"HEAD\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/RequestCreator.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/RequestCreator.swift",
       "kind": "StringLiteral",
       "offset": 324,
       "length": 9,
       "value": "\"OPTIONS\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/RequestCreator.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/RequestCreator.swift",
       "kind": "StringLiteral",
       "offset": 403,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/RequestCreator.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/RequestCreator.swift",
       "kind": "StringLiteral",
       "offset": 452,
       "length": 35,
       "value": "\"application\/x-www-form-urlencoded\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/RequestCreator.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/RequestCreator.swift",
       "kind": "StringLiteral",
       "offset": 521,
       "length": 21,
       "value": "\"multipart\/form-data\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/RequestCreator.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/RequestCreator.swift",
       "kind": "StringLiteral",
       "offset": 568,
       "length": 12,
       "value": "\"text\/plain\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/RequestCreator.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/RequestCreator.swift",
       "kind": "StringLiteral",
       "offset": 600,
       "length": 17,
       "value": "\"application\/xml\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/RequestCreator.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/RequestCreator.swift",
       "kind": "StringLiteral",
       "offset": 7349,
       "length": 26,
       "value": "\"application\/octet-stream\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/URLSessionExtension.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/URLSessionExtension.swift",
       "kind": "BooleanLiteral",
       "offset": 313,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Networking\/URLSessionExtension.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Networking\/URLSessionExtension.swift",
       "kind": "IntegerLiteral",
       "offset": 360,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 190,
       "length": 20,
       "value": "\"id.bureau.Liveness\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 243,
       "length": 7,
-      "value": "\"1.0.7\""
+      "value": "\"1.0.8\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 330,
       "length": 20,
       "value": "\"Lexend-Regular.ttf\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "FloatLiteral",
       "offset": 402,
       "length": 4,
       "value": "24.0"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "FloatLiteral",
       "offset": 461,
       "length": 4,
       "value": "14.0"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "FloatLiteral",
       "offset": 523,
       "length": 4,
       "value": "15.0"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "FloatLiteral",
       "offset": 570,
       "length": 4,
       "value": "20.0"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "FloatLiteral",
       "offset": 614,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 687,
       "length": 27,
       "value": "\"https:\/\/api.dev.bureau.id\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 749,
       "length": 27,
       "value": "\"https:\/\/api.stg.bureau.id\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 810,
       "length": 23,
       "value": "\"https:\/\/api.bureau.id\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 900,
       "length": 8,
       "value": "\"Bureau\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 937,
       "length": 20,
       "value": "\"HomeViewController\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 988,
       "length": 22,
       "value": "\"CameraViewController\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 1041,
       "length": 22,
       "value": "\"ResultViewController\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 1150,
       "length": 68,
       "value": "\" detected. Please remove accessories and retake with a clear face.\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 1274,
       "length": 52,
       "value": "\"Face is clearly visible & the image is not blurry.\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 1382,
       "length": 44,
       "value": "\"There is no other object in the background\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 1484,
       "length": 45,
       "value": "\"Hold tight! Your identity is being verified\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 1581,
       "length": 34,
       "value": "\"Please do not press Back or Exit\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 1689,
       "length": 27,
       "value": "\"Liveness Test Successful!\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 1784,
       "length": 70,
       "value": "\"Congratulations, Liveness test successful, Redirecting in %d seconds\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 1901,
       "length": 69,
       "value": "\"Are you sure you want to exit without completing the whole process?\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "FloatLiteral",
       "offset": 2057,
       "length": 4,
       "value": "-2.0"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "FloatLiteral",
       "offset": 2150,
       "length": 3,
       "value": "4.0"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Utils\/UtilityFunction.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/UtilityFunction.swift",
       "kind": "StringLiteral",
       "offset": 166,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/Utils\/UtilityFunction.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/UtilityFunction.swift",
       "kind": "StringLiteral",
       "offset": 192,
       "length": 4,
       "value": "\"\n\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
       "kind": "Array",
       "offset": 1741,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2303,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8362,
+      "offset": 2369,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2424,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8567,
       "length": 2,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8365,
+      "offset": 8570,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8377,
+      "offset": 8582,
       "length": 3,
       "value": "227"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8381,
+      "offset": 8586,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8392,
+      "offset": 8597,
       "length": 3,
       "value": "148"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8396,
+      "offset": 8601,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8408,
+      "offset": 8613,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 8425,
+      "offset": 8630,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8540,
+      "offset": 8745,
       "length": 3,
       "value": "177"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8544,
+      "offset": 8749,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8556,
+      "offset": 8761,
       "length": 2,
       "value": "31"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8559,
+      "offset": 8764,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8570,
+      "offset": 8775,
       "length": 2,
       "value": "75"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8573,
+      "offset": 8778,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8585,
+      "offset": 8790,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 8602,
+      "offset": 8807,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 8698,
+      "offset": 8903,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 8704,
+      "offset": 8909,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8768,
+      "offset": 8973,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8775,
+      "offset": 8980,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8827,
+      "offset": 9032,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8834,
+      "offset": 9039,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 17657,
+      "offset": 17743,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/View\/HomeViewController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/HomeViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8200,
+      "offset": 8270,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/View\/ResultViewController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/ResultViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 371,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/View\/ResultViewController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/ResultViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 17848,
+      "offset": 17797,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/View\/ResultViewController.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/ResultViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19357,
+      "offset": 19306,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/liveness-ios\/Liveness\/Liveness\/ViewModel\/ConfigViewModel.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/ViewModel\/ConfigViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 435,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Liveness-hbdhpzetitzuqlhdnsghvdhuiijc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/suryakantsharma\/Library\/Developer\/Xcode\/DerivedData\/Liveness-flnjwiwtqudwsfbrhrplmyvrbocq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 741,
       "length": 16,
       "value": "\"ArrowClockwise\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Liveness-hbdhpzetitzuqlhdnsghvdhuiijc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/suryakantsharma\/Library\/Developer\/Xcode\/DerivedData\/Liveness-flnjwiwtqudwsfbrhrplmyvrbocq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 885,
       "length": 11,
       "value": "\"ArrowLeft\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Liveness-hbdhpzetitzuqlhdnsghvdhuiijc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/suryakantsharma\/Library\/Developer\/Xcode\/DerivedData\/Liveness-flnjwiwtqudwsfbrhrplmyvrbocq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1043,
       "length": 21,
       "value": "\"BackgroundObject-no\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Liveness-hbdhpzetitzuqlhdnsghvdhuiijc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/suryakantsharma\/Library\/Developer\/Xcode\/DerivedData\/Liveness-flnjwiwtqudwsfbrhrplmyvrbocq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1195,
       "length": 13,
       "value": "\"Bureau-Logo\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Liveness-hbdhpzetitzuqlhdnsghvdhuiijc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/suryakantsharma\/Library\/Developer\/Xcode\/DerivedData\/Liveness-flnjwiwtqudwsfbrhrplmyvrbocq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1348,
       "length": 17,
       "value": "\"BureauWhiteLogo\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Liveness-hbdhpzetitzuqlhdnsghvdhuiijc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/suryakantsharma\/Library\/Developer\/Xcode\/DerivedData\/Liveness-flnjwiwtqudwsfbrhrplmyvrbocq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1487,
       "length": 8,
       "value": "\"Camera\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Liveness-hbdhpzetitzuqlhdnsghvdhuiijc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/suryakantsharma\/Library\/Developer\/Xcode\/DerivedData\/Liveness-flnjwiwtqudwsfbrhrplmyvrbocq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1616,
       "length": 8,
       "value": "\"Cap-no\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Liveness-hbdhpzetitzuqlhdnsghvdhuiijc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/suryakantsharma\/Library\/Developer\/Xcode\/DerivedData\/Liveness-flnjwiwtqudwsfbrhrplmyvrbocq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1756,
       "length": 13,
       "value": "\"CaptureIcon\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Liveness-hbdhpzetitzuqlhdnsghvdhuiijc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/suryakantsharma\/Library\/Developer\/Xcode\/DerivedData\/Liveness-flnjwiwtqudwsfbrhrplmyvrbocq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1914,
       "length": 20,
       "value": "\"CaptureIcon-enable\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Liveness-hbdhpzetitzuqlhdnsghvdhuiijc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/suryakantsharma\/Library\/Developer\/Xcode\/DerivedData\/Liveness-flnjwiwtqudwsfbrhrplmyvrbocq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2059,
       "length": 10,
       "value": "\"Glass-no\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Liveness-hbdhpzetitzuqlhdnsghvdhuiijc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/suryakantsharma\/Library\/Developer\/Xcode\/DerivedData\/Liveness-flnjwiwtqudwsfbrhrplmyvrbocq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2189,
       "length": 7,
       "value": "\"Light\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Liveness-hbdhpzetitzuqlhdnsghvdhuiijc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/suryakantsharma\/Library\/Developer\/Xcode\/DerivedData\/Liveness-flnjwiwtqudwsfbrhrplmyvrbocq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2330,
       "length": 14,
       "value": "\"LivenessScan\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Liveness-hbdhpzetitzuqlhdnsghvdhuiijc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/suryakantsharma\/Library\/Developer\/Xcode\/DerivedData\/Liveness-flnjwiwtqudwsfbrhrplmyvrbocq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2476,
       "length": 13,
       "value": "\"SuccessTick\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Liveness-hbdhpzetitzuqlhdnsghvdhuiijc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/suryakantsharma\/Library\/Developer\/Xcode\/DerivedData\/Liveness-flnjwiwtqudwsfbrhrplmyvrbocq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2611,
       "length": 8,
       "value": "\"Upload\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Liveness-hbdhpzetitzuqlhdnsghvdhuiijc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/suryakantsharma\/Library\/Developer\/Xcode\/DerivedData\/Liveness-flnjwiwtqudwsfbrhrplmyvrbocq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2747,
       "length": 11,
       "value": "\"UserFocus\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Liveness-hbdhpzetitzuqlhdnsghvdhuiijc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/suryakantsharma\/Library\/Developer\/Xcode\/DerivedData\/Liveness-flnjwiwtqudwsfbrhrplmyvrbocq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2894,
       "length": 15,
       "value": "\"UserRectangle\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Liveness-hbdhpzetitzuqlhdnsghvdhuiijc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/suryakantsharma\/Library\/Developer\/Xcode\/DerivedData\/Liveness-flnjwiwtqudwsfbrhrplmyvrbocq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Faceguard\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphonesimulator\/Faceguard.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3041,
       "length": 13,

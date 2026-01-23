@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Faceguard
-// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import AVFoundation
 import CommonCrypto
 import CoreML
@@ -26,11 +26,17 @@ import os
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public var shouldAutorotate: Swift.Bool {
     @objc get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 5.0, *)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(rootViewController: UIKit.UIViewController)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 public struct DIInsights {
@@ -97,10 +103,14 @@ public struct DIIPSecurity : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension UIKit.UIColor {
+  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init?(hex: Swift.String)
+  #endif
 }
 public protocol FaceguardDelegate : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   func faceguardProcessDidCompleteWith(success: Swift.Bool, error: Faceguard.NetworkError?, image: UIKit.UIImage?, faceguardResponse: Faceguard.FaceguardResponse?)
+  #endif
   func onUserActivityChanged(activity: Faceguard.UserActivity, sessionId: Swift.String)
 }
 extension Faceguard.FaceguardDelegate {
@@ -272,7 +282,9 @@ public struct AdditionalData : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct FaceguardConfiguration {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(credentialId: Swift.String, basicAuthKey: Swift.String, cypherKey: Swift.String, userId: Swift.String, environment: Faceguard.Environment = .production, thresholdConfig: Faceguard.FaceguardThresholdConfig? = nil, theme: Faceguard.FaceguardTheme? = nil, servicesConfiguration: Faceguard.FaceguardServicesConfiguration? = nil)
+  #endif
 }
 public struct FaceguardResponse {
   public var diInsights: Faceguard.DIInsights?
@@ -303,7 +315,9 @@ public struct FaceMatchModel : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct FaceguardServicesConfiguration {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(retryEnabled: Swift.Bool = true, statusScreenRequired: Swift.Bool = true, enableFaceMatch: Swift.Bool = true, enableFaceAnalyser: Swift.Bool = false, enableFaceDedupe: Swift.Bool = false, enableFaceEntityEnrollment: Swift.Bool = false, imageURL: Swift.String? = nil, consentType: Faceguard.ConsentType? = .explicit)
+  #endif
 }
 public enum ConsentType {
   case explicit
@@ -315,7 +329,9 @@ public enum ConsentType {
   }
 }
 public struct FaceguardTheme {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(primaryTextColor: UIKit.UIColor?, secondaryTextColor: UIKit.UIColor?, primaryBackgroundColor: UIKit.UIColor?, fontName: Swift.String?, logo: Swift.String? = nil)
+  #endif
 }
 public struct FaceguardThresholdConfig {
   public var hijab: Swift.Double
@@ -364,7 +380,9 @@ public enum ErrorType : Swift.String, Swift.CaseIterable {
   case serviceUnavailable
   case gatewayTimeout
   case unknown
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [Faceguard.ErrorType]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [Faceguard.ErrorType] {
@@ -393,12 +411,16 @@ public enum NetworkError : Swift.Error, Foundation.LocalizedError {
   case errorModel(data: Foundation.Data)
   case timeout
   case unknown((any Swift.Error)?)
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var failureReason: Swift.String? {
     get
   }
+  #endif
 }
 extension Faceguard.NetworkError : Swift.Equatable {
   public static func == (lhs: Faceguard.NetworkError, rhs: Faceguard.NetworkError) -> Swift.Bool
@@ -421,14 +443,18 @@ public enum Environment : Swift.String {
   case development
   case production
   case staging
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
 }
 @_hasMissingDesignatedInitializers public class FaceguardSDK {
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func initialize(with configuration: Faceguard.FaceguardConfiguration, delegate: any Faceguard.FaceguardDelegate) -> Faceguard.FaceguardSDK?
+  #endif
   public func start(from viewController: UIKit.UIViewController)
   @objc deinit
 }

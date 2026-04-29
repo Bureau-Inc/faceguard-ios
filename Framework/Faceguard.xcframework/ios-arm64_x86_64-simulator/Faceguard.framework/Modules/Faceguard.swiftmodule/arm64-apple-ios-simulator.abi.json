@@ -3284,8 +3284,8 @@
       },
       {
         "kind": "Import",
-        "name": "deviceintel_ios",
-        "printedName": "deviceintel_ios",
+        "name": "bureau_id_fraud_sdk",
+        "printedName": "bureau_id_fraud_sdk",
         "declKind": "Import",
         "moduleName": "Faceguard"
       },
@@ -4834,6 +4834,66 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "imageURL",
+            "printedName": "imageURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Faceguard17FaceAnalyzerModelV8imageURLSSSgvp",
+            "mangledName": "$s9Faceguard17FaceAnalyzerModelV8imageURLSSSgvp",
+            "moduleName": "Faceguard",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Faceguard17FaceAnalyzerModelV8imageURLSSSgvg",
+                "mangledName": "$s9Faceguard17FaceAnalyzerModelV8imageURLSSSgvg",
+                "moduleName": "Faceguard",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -6237,6 +6297,66 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "imageURL",
+            "printedName": "imageURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Faceguard15FaceDedupeModelV8imageURLSSSgvp",
+            "mangledName": "$s9Faceguard15FaceDedupeModelV8imageURLSSSgvp",
+            "moduleName": "Faceguard",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Faceguard15FaceDedupeModelV8imageURLSSSgvg",
+                "mangledName": "$s9Faceguard15FaceDedupeModelV8imageURLSSSgvg",
+                "moduleName": "Faceguard",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -7451,6 +7571,66 @@
                 "declKind": "Accessor",
                 "usr": "s:9Faceguard21FaceDetectionResponseV9sessionIdSSSgvg",
                 "mangledName": "$s9Faceguard21FaceDetectionResponseV9sessionIdSSSgvg",
+                "moduleName": "Faceguard",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imageUrl",
+            "printedName": "imageUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Faceguard21FaceDetectionResponseV8imageUrlSSSgvp",
+            "mangledName": "$s9Faceguard21FaceDetectionResponseV8imageUrlSSSgvp",
+            "moduleName": "Faceguard",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Faceguard21FaceDetectionResponseV8imageUrlSSSgvg",
+                "mangledName": "$s9Faceguard21FaceDetectionResponseV8imageUrlSSSgvg",
                 "moduleName": "Faceguard",
                 "implicit": true,
                 "accessorKind": "get"
@@ -12477,6 +12657,126 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "image1",
+            "printedName": "image1",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Faceguard14FaceMatchModelV6image1SSSgvp",
+            "mangledName": "$s9Faceguard14FaceMatchModelV6image1SSSgvp",
+            "moduleName": "Faceguard",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Faceguard14FaceMatchModelV6image1SSSgvg",
+                "mangledName": "$s9Faceguard14FaceMatchModelV6image1SSSgvg",
+                "moduleName": "Faceguard",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "image2",
+            "printedName": "image2",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Faceguard14FaceMatchModelV6image2SSSgvp",
+            "mangledName": "$s9Faceguard14FaceMatchModelV6image2SSSgvp",
+            "moduleName": "Faceguard",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Faceguard14FaceMatchModelV6image2SSSgvg",
+                "mangledName": "$s9Faceguard14FaceMatchModelV6image2SSSgvg",
+                "moduleName": "Faceguard",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -16973,8 +17273,8 @@
       },
       {
         "kind": "Import",
-        "name": "deviceintel_ios",
-        "printedName": "deviceintel_ios",
+        "name": "bureau_id_fraud_sdk",
+        "printedName": "bureau_id_fraud_sdk",
         "declKind": "Import",
         "moduleName": "Faceguard"
       },
@@ -16997,8 +17297,8 @@
       },
       {
         "kind": "Import",
-        "name": "deviceintel_ios",
-        "printedName": "deviceintel_ios",
+        "name": "bureau_id_fraud_sdk",
+        "printedName": "bureau_id_fraud_sdk",
         "declKind": "Import",
         "moduleName": "Faceguard"
       },
@@ -17656,21 +17956,21 @@
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/DI\/DIManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1584,
+      "offset": 1592,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/DI\/DIManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1635,
+      "offset": 1643,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/DI\/DIManager.swift",
       "kind": "StringLiteral",
-      "offset": 1952,
+      "offset": 1960,
       "length": 29,
       "value": "\"com.faceguard.di.submission\""
     },
@@ -18307,23 +18607,30 @@
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FaceAnalyzerResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1339,
+      "offset": 1372,
       "length": 6,
       "value": "\"MALE\""
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FaceAnalyzerResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1364,
+      "offset": 1397,
       "length": 8,
       "value": "\"FEMALE\""
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FaceAnalyzerResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1392,
+      "offset": 1425,
       "length": 9,
       "value": "\"UNKNOWN\""
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FaceDetectionResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 866,
+      "length": 11,
+      "value": "\"image_url\""
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardServicesConfiguration.swift",
@@ -18771,7 +19078,7 @@
       "kind": "StringLiteral",
       "offset": 243,
       "length": 7,
-      "value": "\"1.0.8\""
+      "value": "\"1.0.9\""
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
@@ -18867,70 +19174,98 @@
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1150,
-      "length": 68,
-      "value": "\" detected. Please remove accessories and retake with a clear face.\""
+      "offset": 1160,
+      "length": 57,
+      "value": "\"Face is obscured by clothing. Please adjust and retake.\""
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1274,
+      "offset": 1270,
+      "length": 49,
+      "value": "\"Right\/Left eye is closed. Please open both eyes\""
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1376,
+      "length": 52,
+      "value": "\" detected. Please ensure only one face is in frame\""
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1472,
+      "length": 59,
+      "value": "\" detected. Please remove %@ and retake with a clear face.\""
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1583,
+      "length": 57,
+      "value": "\"Face is obscured by clothing. Please adjust and retake.\""
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1696,
       "length": 52,
       "value": "\"Face is clearly visible & the image is not blurry.\""
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1382,
+      "offset": 1804,
       "length": 44,
       "value": "\"There is no other object in the background\""
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1484,
+      "offset": 1906,
       "length": 45,
       "value": "\"Hold tight! Your identity is being verified\""
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1581,
+      "offset": 2003,
       "length": 34,
       "value": "\"Please do not press Back or Exit\""
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1689,
+      "offset": 2111,
       "length": 27,
       "value": "\"Liveness Test Successful!\""
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1784,
+      "offset": 2206,
       "length": 70,
       "value": "\"Congratulations, Liveness test successful, Redirecting in %d seconds\""
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1901,
+      "offset": 2323,
       "length": 69,
       "value": "\"Are you sure you want to exit without completing the whole process?\""
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "FloatLiteral",
-      "offset": 2057,
+      "offset": 2479,
       "length": 4,
       "value": "-2.0"
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
       "kind": "FloatLiteral",
-      "offset": 2150,
+      "offset": 2572,
       "length": 3,
       "value": "4.0"
     },
@@ -19154,21 +19489,21 @@
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/ResultViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 17797,
+      "offset": 19194,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/ResultViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19306,
+      "offset": 20703,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/ViewModel\/ConfigViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 435,
+      "offset": 439,
       "length": 1,
       "value": "0"
     },

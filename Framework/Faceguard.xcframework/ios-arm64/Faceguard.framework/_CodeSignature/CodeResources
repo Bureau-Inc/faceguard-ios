@@ -66,7 +66,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		BqI9Pa5tsOH8LTitozyeX21fhXs=
+		uUOepr5w9GgFZk7haLlH7OR+9mA=
 		</data>
 		<key>Lexend-Regular.ttf</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		O85n3IdAXJ6RYjYUmM9baCLOML8=
+		9PCi/4rywP26m0zT/b1WJxrvUqo=
 		</data>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		5P1Beqjv7v1R13yC+mdyDTR0/Ak=
+		mH8irMLS+umynn+JBgXsP1J00DA=
 		</data>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -86,11 +86,11 @@
 		</data>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		5P1Beqjv7v1R13yC+mdyDTR0/Ak=
+		mH8irMLS+umynn+JBgXsP1J00DA=
 		</data>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		HnPHNiMyuJW8AYykV6HAf5wM0EU=
+		CQ2QzdSrm1Walz5dCRtzVvsP2mU=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -215,14 +215,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			opCB5EhJRUxThg7GtkDsxQd6yn4VQoj9AzTvzd/dKjI=
+			j9iFcilrcQkwAVxlqUuiEmdj4I1gYYUEJ2FXnF22Y/o=
 			</data>
 		</dict>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fs9XVFROHKfmXjCK61HmBKDJ2FPMMj0NM3i4tgxgD/c=
+			wNHucCdTCLSB5EUY34eIQOLRxxC+Ok2tFoyl1IlWxy4=
 			</data>
 		</dict>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -236,14 +236,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fs9XVFROHKfmXjCK61HmBKDJ2FPMMj0NM3i4tgxgD/c=
+			wNHucCdTCLSB5EUY34eIQOLRxxC+Ok2tFoyl1IlWxy4=
 			</data>
 		</dict>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T4fRwce/jBugrCPWmWuDzJQNH286SzRVFFH1PH7vT9E=
+			+7ZCxJiJmq9NGKQxCkpmHrHQBIoUUzu0zgApx4879D8=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>

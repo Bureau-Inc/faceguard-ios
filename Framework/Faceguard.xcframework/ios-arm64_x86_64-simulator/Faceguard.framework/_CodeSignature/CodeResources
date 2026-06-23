@@ -66,7 +66,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YgqaBp2m5Z7GSY4oKvwqLfoUTRc=
+		nyPor4JGjMyMvcq/VdVznRM4jTs=
 		</data>
 		<key>Lexend-Regular.ttf</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		+tRMs9ne4iE00uQcpTyHqZRJHjU=
+		mbQWqYoZgw/d7PjEdocNxIuM2Lo=
 		</data>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -90,11 +90,11 @@
 		</data>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1BAQBSU8/UGlTp3PJYPjZI56Kwk=
+		mu+f5RI0Oz3akDtiKs8HZzEZaMk=
 		</data>
 		<key>Modules/Faceguard.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		+tRMs9ne4iE00uQcpTyHqZRJHjU=
+		mbQWqYoZgw/d7PjEdocNxIuM2Lo=
 		</data>
 		<key>Modules/Faceguard.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Modules/Faceguard.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cSD2ppQ7UPpYgDwy3pS0+cNTbro=
+		SK7av5BRJA85MeGC60tp3ibfqN4=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -235,7 +235,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JfkoC/2pwk0L58zobVs5mSirTOj0EpV95UgpQlQInck=
+			FnF90dR8w6YZ+u3KDyeH38kKtMdaWwP7XKPFoHtaNz4=
 			</data>
 		</dict>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -263,14 +263,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UD0MYPuAYSECty14q0l2oZqliFJG+734KO1N0eYCjSQ=
+			4/1gZsrSpw2Y+GzHXC+Z8fB9VJGkj4qZKeW94dgOGiA=
 			</data>
 		</dict>
 		<key>Modules/Faceguard.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JfkoC/2pwk0L58zobVs5mSirTOj0EpV95UgpQlQInck=
+			FnF90dR8w6YZ+u3KDyeH38kKtMdaWwP7XKPFoHtaNz4=
 			</data>
 		</dict>
 		<key>Modules/Faceguard.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -298,7 +298,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bBgL3dH7rzYsVJxqjACbKS5Qe8Om6uugpE3zyAhn2qA=
+			9qx0GbXmq9DUJ3mwjoMYkbf3cdCpQ1/NSNTYWCfG/8c=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>

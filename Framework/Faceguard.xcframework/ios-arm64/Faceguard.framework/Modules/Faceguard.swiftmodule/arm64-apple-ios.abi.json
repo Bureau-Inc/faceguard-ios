@@ -19078,7 +19078,7 @@
       "kind": "StringLiteral",
       "offset": 243,
       "length": 7,
-      "value": "\"1.0.9\""
+      "value": "\"1.1.0\""
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",
@@ -19468,7 +19468,7 @@
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/liveness-ios\/Liveness\/Liveness\/View\/CameraViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 17743,
+      "offset": 18031,
       "length": 5,
       "value": "false"
     },

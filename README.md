@@ -2,7 +2,7 @@
 
 ### Step 1 - Add Dependency
 
-1. SDK is available through [CocoaPods](https://cocoapods.org/pods/faceguard-ios). To install it, simply add the following line to your Podfile:
+1. SDK is available through [CocoaPods](https://cocoapods.org/pods/faceguard). To install it, simply add the following line to your Podfile:
 
 ```ruby
 # Podfile

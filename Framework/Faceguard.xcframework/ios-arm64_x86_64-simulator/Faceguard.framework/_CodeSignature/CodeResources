@@ -74,11 +74,11 @@
 		</data>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		4LJFVl8UAdSxuh3RcCw2UwbU6yU=
+		Tm1XGF+8qx7cF+RA3xZsjDkE6VI=
 		</data>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Rc6gKIzy2Gx5VQYcT8B8mVxxfPs=
+		RCJaBexjt2O/NENqLYvjtsd1F48=
 		</data>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -86,19 +86,19 @@
 		</data>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Rc6gKIzy2Gx5VQYcT8B8mVxxfPs=
+		RCJaBexjt2O/NENqLYvjtsd1F48=
 		</data>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SaLDfmykWTJ7H4FUzbyKIHhlHdk=
+		3x1EVFNVmzyzs9I5ZvdXDNjJaSU=
 		</data>
 		<key>Modules/Faceguard.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		4LJFVl8UAdSxuh3RcCw2UwbU6yU=
+		Tm1XGF+8qx7cF+RA3xZsjDkE6VI=
 		</data>
 		<key>Modules/Faceguard.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		3rNocoR6siWhnvyHOnZXAtj0oEk=
+		yc2YP//oXlo723HykWennA6o9cY=
 		</data>
 		<key>Modules/Faceguard.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -106,11 +106,11 @@
 		</data>
 		<key>Modules/Faceguard.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		3rNocoR6siWhnvyHOnZXAtj0oEk=
+		yc2YP//oXlo723HykWennA6o9cY=
 		</data>
 		<key>Modules/Faceguard.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zdWK7U8YX3HSE7+6p/9FqxseFAs=
+		yqy5jBKmLZmeT8GVAGlxkKxCneU=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -235,14 +235,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			m7F1XlvUqU0q44oAw7c22SbWlX1eB5s6u39RzQJNhsU=
+			soaP5RIq14jkDS9deBUm0qdN97SoanJdevXLIRU69qE=
 			</data>
 		</dict>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wBUeM3UXoy/kGqvvZY0Nv6UAwhS5J4cd7QYI/Qjd/pE=
+			U9MKgrsb3eD4dd4elgZKQbxWdKVNLVz0obQCw3uzHHw=
 			</data>
 		</dict>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -256,28 +256,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wBUeM3UXoy/kGqvvZY0Nv6UAwhS5J4cd7QYI/Qjd/pE=
+			U9MKgrsb3eD4dd4elgZKQbxWdKVNLVz0obQCw3uzHHw=
 			</data>
 		</dict>
 		<key>Modules/Faceguard.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x3ATvKP2nNQxQ9whRhhG1AtGn7hHs944R5QNl/ocumg=
+			ihRY/vbLK4WE4rHT5Gr5H4ohft+R03/GnDg8KwCzDak=
 			</data>
 		</dict>
 		<key>Modules/Faceguard.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m7F1XlvUqU0q44oAw7c22SbWlX1eB5s6u39RzQJNhsU=
+			soaP5RIq14jkDS9deBUm0qdN97SoanJdevXLIRU69qE=
 			</data>
 		</dict>
 		<key>Modules/Faceguard.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1+RsvxwekVD5lUgiMLxSFam0WGLgjDgXiY0E07ypp1I=
+			rJR6UvVdYjKBymRo7ky/FVP8fStoImZNFX07FTYjIok=
 			</data>
 		</dict>
 		<key>Modules/Faceguard.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -291,14 +291,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1+RsvxwekVD5lUgiMLxSFam0WGLgjDgXiY0E07ypp1I=
+			rJR6UvVdYjKBymRo7ky/FVP8fStoImZNFX07FTYjIok=
 			</data>
 		</dict>
 		<key>Modules/Faceguard.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MUTvQRMbdLv7fvIwBxxWFbFmygEG7B0Q8SM+JVHXpyQ=
+			YgIj1iYCrbmpTwshJiZ9aAbBfwdPoao5SNS39+JAFyE=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>

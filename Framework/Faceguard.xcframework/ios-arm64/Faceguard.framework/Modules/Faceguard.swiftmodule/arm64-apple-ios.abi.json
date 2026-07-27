@@ -12944,13 +12944,20 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(retryEnabled:statusScreenRequired:enableFaceMatch:enableFaceAnalyser:enableFaceDedupe:enableFaceEntityEnrollment:imageURL:consentType:)",
+            "printedName": "init(retryEnabled:statusScreenRequired:enableFaceMatch:enableFaceAnalyser:enableFaceDedupe:enableFaceEntityEnrollment:enableCameraSwitch:imageURL:consentType:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "FaceguardServicesConfiguration",
                 "printedName": "Faceguard.FaceguardServicesConfiguration",
                 "usr": "s:9Faceguard0A21ServicesConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
@@ -13026,8 +13033,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:9Faceguard0A21ServicesConfigurationV12retryEnabled20statusScreenRequired15enableFaceMatch0iJ8Analyser0iJ6Dedupe0iJ16EntityEnrollment8imageURL11consentTypeACSb_S5bSSSgAA07ConsentS0OSgtcfc",
-            "mangledName": "$s9Faceguard0A21ServicesConfigurationV12retryEnabled20statusScreenRequired15enableFaceMatch0iJ8Analyser0iJ6Dedupe0iJ16EntityEnrollment8imageURL11consentTypeACSb_S5bSSSgAA07ConsentS0OSgtcfc",
+            "usr": "s:9Faceguard0A21ServicesConfigurationV12retryEnabled20statusScreenRequired15enableFaceMatch0iJ8Analyser0iJ6Dedupe0iJ16EntityEnrollment0I12CameraSwitch8imageURL11consentTypeACSb_S6bSSSgAA07ConsentU0OSgtcfc",
+            "mangledName": "$s9Faceguard0A21ServicesConfigurationV12retryEnabled20statusScreenRequired15enableFaceMatch0iJ8Analyser0iJ6Dedupe0iJ16EntityEnrollment0I12CameraSwitch8imageURL11consentTypeACSb_S6bSSSgAA07ConsentU0OSgtcfc",
             "moduleName": "Faceguard",
             "declAttributes": [
               "AccessControl"
@@ -18695,42 +18702,49 @@
     {
       "filePath": "\/Users\/lalit.kumar\/Documents\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardServicesConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 475,
+      "offset": 504,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/lalit.kumar\/Documents\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardServicesConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 510,
+      "offset": 539,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/lalit.kumar\/Documents\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardServicesConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 540,
+      "offset": 569,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/lalit.kumar\/Documents\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardServicesConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 573,
+      "offset": 602,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/lalit.kumar\/Documents\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardServicesConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 605,
+      "offset": 634,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/lalit.kumar\/Documents\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardServicesConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 647,
+      "offset": 676,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lalit.kumar\/Documents\/liveness-ios\/Liveness\/Liveness\/Model\/FaceguardServicesConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 710,
       "length": 5,
       "value": "false"
     },
@@ -19138,7 +19152,7 @@
       "kind": "StringLiteral",
       "offset": 243,
       "length": 7,
-      "value": "\"1.1.1\""
+      "value": "\"1.1.2\""
     },
     {
       "filePath": "\/Users\/lalit.kumar\/Documents\/liveness-ios\/Liveness\/Liveness\/Utils\/AppConstant.swift",

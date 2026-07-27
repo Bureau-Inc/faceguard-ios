@@ -309,7 +309,7 @@ public struct FaceMatchModel : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct FaceguardServicesConfiguration {
-  public init(retryEnabled: Swift.Bool = true, statusScreenRequired: Swift.Bool = true, enableFaceMatch: Swift.Bool = true, enableFaceAnalyser: Swift.Bool = false, enableFaceDedupe: Swift.Bool = false, enableFaceEntityEnrollment: Swift.Bool = false, imageURL: Swift.String? = nil, consentType: Faceguard.ConsentType? = .explicit)
+  public init(retryEnabled: Swift.Bool = true, statusScreenRequired: Swift.Bool = true, enableFaceMatch: Swift.Bool = true, enableFaceAnalyser: Swift.Bool = false, enableFaceDedupe: Swift.Bool = false, enableFaceEntityEnrollment: Swift.Bool = false, enableCameraSwitch: Swift.Bool = false, imageURL: Swift.String? = nil, consentType: Faceguard.ConsentType? = .explicit)
 }
 public enum ConsentType {
   case explicit

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'Faceguard'
-  spec.version      = '1.1.1'
+  spec.version      = '1.1.2'
   spec.summary      = 'Faceguard detection SDK'
   spec.description  = 'SDK for Faceguard detection with device intelligence'
   spec.homepage     = 'https://bureau.id'
